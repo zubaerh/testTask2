@@ -1,0 +1,26 @@
+<section>
+    <div flex-container>
+  
+    </div>
+    <div class="card">
+      <div class="container">
+        <header>
+          <label>
+            <input class="form-control" class="input"(input)="enterInputHeader($event)"/>
+            <div>{{ enterText}}</div>
+          </label>
+        </header>
+        <body>
+          <div>
+            <label>
+                <input class="form-control" class="input"(input)="enterInputBody($event)"/>
+                <div>{{outputText}}</div>
+            </label>
+          </div>
+        </body>
+        <footer>
+          <button (click)="onButtonClick()">OK</button>
+        </footer>
+      </div>
+    </div>
+  </section>
